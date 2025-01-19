@@ -6,6 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DDACE64C2D3D8625007C08D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDACE6422D3D8625007C08D2 /* AppDelegate.swift */; };
+		DDACE64D2D3D8625007C08D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDACE6492D3D8625007C08D2 /* SceneDelegate.swift */; };
+		DDACE64E2D3D8625007C08D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDACE64A2D3D8625007C08D2 /* ViewController.swift */; };
+		DDACE64F2D3D8625007C08D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDACE6432D3D8625007C08D2 /* Assets.xcassets */; };
+		DDACE6512D3D8625007C08D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDACE6462D3D8625007C08D2 /* LaunchScreen.storyboard */; };
+		DDACE6522D3D8625007C08D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDACE6482D3D8625007C08D2 /* Main.storyboard */; };
+		DDACE65B2D3D8650007C08D2 /* Hello_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDACE6592D3D8650007C08D2 /* Hello_iOSTests.swift */; };
+		DDACE65F2D3D8652007C08D2 /* Hello_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDACE65C2D3D8652007C08D2 /* Hello_iOSUITests.swift */; };
+		DDACE6602D3D8652007C08D2 /* Hello_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDACE65D2D3D8652007C08D2 /* Hello_iOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		DDACE5F92D3D77E3007C08D2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,38 +39,17 @@
 		DDACE5E22D3D77E2007C08D2 /* Hello iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDACE5F82D3D77E3007C08D2 /* Hello iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDACE6022D3D77E3007C08D2 /* Hello iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDACE6422D3D8625007C08D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDACE6432D3D8625007C08D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDACE6442D3D8625007C08D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDACE6452D3D8625007C08D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDACE6472D3D8625007C08D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDACE6492D3D8625007C08D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DDACE64A2D3D8625007C08D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDACE6592D3D8650007C08D2 /* Hello_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_iOSTests.swift; sourceTree = "<group>"; };
+		DDACE65C2D3D8652007C08D2 /* Hello_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_iOSUITests.swift; sourceTree = "<group>"; };
+		DDACE65D2D3D8652007C08D2 /* Hello_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		DDACE60A2D3D77E3007C08D2 /* Exceptions for "Hello iOS" folder in "Hello iOS" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = DDACE5E12D3D77E2007C08D2 /* Hello iOS */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		DDACE5E42D3D77E2007C08D2 /* Hello iOS */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				DDACE60A2D3D77E3007C08D2 /* Exceptions for "Hello iOS" folder in "Hello iOS" target */,
-			);
-			path = "Hello iOS";
-			sourceTree = "<group>";
-		};
-		DDACE5FB2D3D77E3007C08D2 /* Hello iOSTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Hello iOSTests";
-			sourceTree = "<group>";
-		};
-		DDACE6052D3D77E3007C08D2 /* Hello iOSUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Hello iOSUITests";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DDACE5DF2D3D77E2007C08D2 /* Frameworks */ = {
@@ -88,9 +79,9 @@
 		DDACE5D92D3D77E2007C08D2 = {
 			isa = PBXGroup;
 			children = (
-				DDACE5E42D3D77E2007C08D2 /* Hello iOS */,
-				DDACE5FB2D3D77E3007C08D2 /* Hello iOSTests */,
-				DDACE6052D3D77E3007C08D2 /* Hello iOSUITests */,
+				DDACE64B2D3D8625007C08D2 /* Hello iOS */,
+				DDACE65A2D3D8650007C08D2 /* Hello iOSTests */,
+				DDACE65E2D3D8652007C08D2 /* Hello iOSUITests */,
 				DDACE5E32D3D77E2007C08D2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +94,37 @@
 				DDACE6022D3D77E3007C08D2 /* Hello iOSUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DDACE64B2D3D8625007C08D2 /* Hello iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DDACE6422D3D8625007C08D2 /* AppDelegate.swift */,
+				DDACE6432D3D8625007C08D2 /* Assets.xcassets */,
+				DDACE6442D3D8625007C08D2 /* Info.plist */,
+				DDACE6462D3D8625007C08D2 /* LaunchScreen.storyboard */,
+				DDACE6482D3D8625007C08D2 /* Main.storyboard */,
+				DDACE6492D3D8625007C08D2 /* SceneDelegate.swift */,
+				DDACE64A2D3D8625007C08D2 /* ViewController.swift */,
+			);
+			path = "Hello iOS";
+			sourceTree = "<group>";
+		};
+		DDACE65A2D3D8650007C08D2 /* Hello iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDACE6592D3D8650007C08D2 /* Hello_iOSTests.swift */,
+			);
+			path = "Hello iOSTests";
+			sourceTree = "<group>";
+		};
+		DDACE65E2D3D8652007C08D2 /* Hello iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDACE65C2D3D8652007C08D2 /* Hello_iOSUITests.swift */,
+				DDACE65D2D3D8652007C08D2 /* Hello_iOSUITestsLaunchTests.swift */,
+			);
+			path = "Hello iOSUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,9 +141,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				DDACE5E42D3D77E2007C08D2 /* Hello iOS */,
 			);
 			name = "Hello iOS";
 			packageProductDependencies = (
@@ -143,9 +162,6 @@
 			dependencies = (
 				DDACE5FA2D3D77E3007C08D2 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				DDACE5FB2D3D77E3007C08D2 /* Hello iOSTests */,
-			);
 			name = "Hello iOSTests";
 			packageProductDependencies = (
 			);
@@ -165,9 +181,6 @@
 			);
 			dependencies = (
 				DDACE6042D3D77E3007C08D2 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				DDACE6052D3D77E3007C08D2 /* Hello iOSUITests */,
 			);
 			name = "Hello iOSUITests";
 			packageProductDependencies = (
@@ -225,6 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDACE64F2D3D8625007C08D2 /* Assets.xcassets in Resources */,
+				DDACE6512D3D8625007C08D2 /* LaunchScreen.storyboard in Resources */,
+				DDACE6522D3D8625007C08D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDACE64C2D3D8625007C08D2 /* AppDelegate.swift in Sources */,
+				DDACE64D2D3D8625007C08D2 /* SceneDelegate.swift in Sources */,
+				DDACE64E2D3D8625007C08D2 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDACE65B2D3D8650007C08D2 /* Hello_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDACE65F2D3D8652007C08D2 /* Hello_iOSUITests.swift in Sources */,
+				DDACE6602D3D8652007C08D2 /* Hello_iOSUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +303,35 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		DDACE6462D3D8625007C08D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDACE6452D3D8625007C08D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DDACE6482D3D8625007C08D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDACE6472D3D8625007C08D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		DDACE60C2D3D77E3007C08D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 12;
+				DEVELOPMENT_TEAM = C6SS755P33;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Hello iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -303,6 +346,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.draft.Hello-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -318,8 +362,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 12;
+				DEVELOPMENT_TEAM = C6SS755P33;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Hello iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -334,6 +380,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.draft.Hello-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -468,7 +515,8 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 12;
+				DEVELOPMENT_TEAM = C6SS755P33;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
@@ -486,7 +534,8 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 12;
+				DEVELOPMENT_TEAM = C6SS755P33;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
@@ -503,7 +552,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 12;
+				DEVELOPMENT_TEAM = C6SS755P33;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.draft.Hello-iOSUITests";
@@ -519,7 +569,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 12;
+				DEVELOPMENT_TEAM = C6SS755P33;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.draft.Hello-iOSUITests";
