@@ -100,8 +100,8 @@ end
 platform :ios do
   desc "Run unit tests"
   lane :tests do
-    load_asc_api_key
-    prepare_signing
+#    load_asc_api_key
+#    prepare_signing
     run_tests(
       scheme: "Hello iOSTests",
     )
